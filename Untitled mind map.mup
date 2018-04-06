@@ -1,0 +1,229 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "Соревнование",
+      "id": 1,
+      "attr": {
+        "position": [
+          -433,
+          -34,
+          1
+        ],
+        "style": {
+          "width": 91
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "сущности",
+          "id": 14,
+          "ideas": {
+            "2": {
+              "title": "Результат",
+              "id": 21,
+              "attr": {},
+              "ideas": {
+                "1": {
+                  "title": "Время",
+                  "id": 25
+                },
+                "2": {
+                  "title": "Место",
+                  "id": 34
+                }
+              }
+            },
+            "3": {
+              "title": "Участник",
+              "id": 19,
+              "ideas": {
+                "1": {
+                  "title": "ФИО",
+                  "id": 26
+                },
+                "2": {
+                  "title": "Дата рождения",
+                  "id": 27
+                },
+                "3": {
+                  "title": "Разряд",
+                  "id": 29
+                }
+              }
+            },
+            "4": {
+              "title": "Тренер",
+              "id": 20,
+              "attr": {
+                "position": [
+                  89.5,
+                  109,
+                  2
+                ]
+              },
+              "ideas": {
+                "1": {
+                  "title": "ФИО",
+                  "id": 31
+                },
+                "2": {
+                  "title": "Дата рождения",
+                  "id": 32
+                }
+              }
+            },
+            "0.5": {
+              "title": "Спортивные дисциплины",
+              "id": 17,
+              "attr": {
+                "position": [
+                  81.5,
+                  -184,
+                  1
+                ]
+              },
+              "ideas": {
+                "1": {
+                  "title": "Название",
+                  "id": 24
+                }
+              }
+            },
+            "0.25": {
+              "title": "Вид спорта",
+              "id": 16,
+              "attr": {},
+              "ideas": {
+                "1": {
+                  "title": "Название",
+                  "id": 23
+                }
+              }
+            }
+          }
+        },
+        "11": {
+          "title": "разработка",
+          "id": 48,
+          "attr": {
+            "position": [
+              3.5,
+              229,
+              1
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "MS Access",
+              "id": 50,
+              "ideas": {
+                "1": {
+                  "title": "Часто используемая СУБД",
+                  "id": 54
+                }
+              }
+            },
+            "2": {
+              "title": "C#",
+              "id": 51,
+              "ideas": {
+                "1": {
+                  "title": "Windows Forms",
+                  "id": 53
+                }
+              }
+            }
+          }
+        },
+        "-1": {
+          "title": "активности",
+          "id": 37,
+          "ideas": {
+            "1": {
+              "title": "Страница результатов ",
+              "id": 39,
+              "ideas": {
+                "1": {
+                  "title": "Просмотр результатов",
+                  "id": 41
+                },
+                "2": {
+                  "title": "Судья?",
+                  "id": 42,
+                  "ideas": {
+                    "1": {
+                      "title": "Редактирование результатов",
+                      "id": 43
+                    },
+                    "2": {
+                      "title": "Добавление результатов",
+                      "id": 44,
+                      "ideas": {}
+                    },
+                    "3": {
+                      "title": "Удаление результатов",
+                      "id": 46,
+                      "ideas": {}
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "title": "Соревнование",
+  "links": [
+    {
+      "ideaIdFrom": 16,
+      "ideaIdTo": 17,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 17,
+      "ideaIdTo": 21,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed",
+          "arrow": "to",
+          "label": ""
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 20,
+      "ideaIdTo": 19,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed",
+          "arrow": "to",
+          "label": ""
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 19,
+      "ideaIdTo": 21,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed",
+          "arrow": "to",
+          "label": ""
+        }
+      }
+    }
+  ]
+}
